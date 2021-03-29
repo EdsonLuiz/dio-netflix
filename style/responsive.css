@@ -1,0 +1,29 @@
+@media only screen and (max-width: 700px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .descricao-container {
+    max-height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .botoes {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .botao {
+    margin-top: 5px;
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .carrosel-mangas {
+    margin-top: var(--size20);
+  }
+}
